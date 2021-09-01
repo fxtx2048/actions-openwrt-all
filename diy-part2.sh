@@ -13,8 +13,8 @@
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
 #拉取组播代理插件
-git clone https://github.com/riverscn/luci-app-omcproxy.git package/lean/luci-app-omcproxy
-git clone https://github.com/godros/luci-app-godproxy.git package/lean/luci-app-godproxy
+#git clone https://github.com/riverscn/luci-app-omcproxy.git package/lean/luci-app-omcproxy
+#git clone https://github.com/godros/luci-app-godproxy.git package/lean/luci-app-godproxy
 #修改默认主题为argon
 sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 #修改密码为空，自定义名称
