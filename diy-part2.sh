@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.0.1/g' package/base-files/files/bin/config_generate
 #拉取组播代理插件
 git clone -b 18.06 https://github.com/riverscn/luci-app-omcproxy.git package/lean/luci-app-omcproxy
 git clone https://github.com/godros/luci-app-godproxy.git package/lean/luci-app-godproxy
